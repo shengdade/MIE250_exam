@@ -12,8 +12,4 @@ public class B2 {
         return count;
 
     }
-
-    public int nMegaStars2(Song[] songs) {
-        return (int) Arrays.stream(songs).filter(s -> s.getArtist().getNTopTenHits() >= 10).count();
-    }
 }
